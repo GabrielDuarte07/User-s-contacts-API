@@ -1,0 +1,25 @@
+GET http://localhost:3000/users
+
+###
+
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+  "name":"Gabriel2",
+  "email":"gabriel2@outlook.com"
+}
+
+###
+
+DELETE http://localhost:3000/users/49bd464e-9dd1-416c-b502-3fa81daf4658
+
+###
+
+PATCH http://localhost:3000/users/ef98583c-8012-4139-9084-c65544d2c3ab
+Content-Type: application/json
+
+{
+  "name":"Gabriel2_update",
+  "email":"gabriel2_update@outlook.com"
+}

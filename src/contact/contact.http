@@ -1,0 +1,31 @@
+GET http://localhost:3000/contacts/user/e0c43aa8-d9a8-4ae9-ae2c-214874dfd63d
+
+###
+
+GET http://localhost:3000/contacts/e2c47ee3-8419-4fcf-95a8-fe07e151be70
+
+###
+
+POST http://localhost:3000/contacts
+Content-Type: application/json
+
+{
+  "name":"contact4",
+  "email":"contact4@outlook.com",
+  "phone":"+5513990384729",
+  "user_id":"e0c43aa8-d9a8-4ae9-ae2c-214874dfd63d"
+}
+
+###
+
+DELETE http://localhost:3000/contacts/099df75b-912c-498e-8148-13ae6b514a1f
+
+###
+
+PATCH http://localhost:3000/contacts/d9a4501c-07ba-42cd-8137-80e15150c049
+Content-Type: application/json
+
+{
+  "name":"contact2_update",
+  "email":"contact4@outlook.com"
+}
