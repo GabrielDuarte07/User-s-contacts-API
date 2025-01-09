@@ -2,14 +2,14 @@
 
 ## Features
 
-> Fastify
-> Typescript
-> Prisma
-> Zod
+> Fastify<br>
+> Typescript<br>
+> Prisma<br>
+> Zod<br>
 
 ## Models
 
-> User
-> Contact
+> User<br>
+> Contact<br>
 
 The Api registers and manages contact`s data relating to one user.
